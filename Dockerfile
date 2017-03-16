@@ -1,5 +1,7 @@
 from python:alpine
 
+MAINTAINER Sergey Melekhin <sergey@melekhin.me>
+
 ADD requirements.txt /
 RUN apk update && apk upgrade && \
     apk add --no-cache git

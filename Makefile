@@ -1,5 +1,5 @@
 all:
-	sudo docker build -t pybase .
+	sudo docker build -t cpro29a/ddemo_pybase .
 clean:
-	sudo docker rmi pybase
+	sudo docker rmi cpro29a/ddemo_pybase
 
